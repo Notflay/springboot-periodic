@@ -1,0 +1,11 @@
+#idnavbar {
+    height: 80px;
+}
+
+.nav-item  {
+    padding: 10px;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+}
