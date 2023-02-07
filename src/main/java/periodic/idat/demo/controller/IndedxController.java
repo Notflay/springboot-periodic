@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class IndedxController {
-    @GetMapping(value = { "/Inicio", "/" })
+    @GetMapping(value = { "/inicio", "/" })
     public String inicio() {
-        return "Inicio";
+        return "inicio";
     }
 
     @GetMapping("/Entretenimiento")
