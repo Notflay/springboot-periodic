@@ -12,7 +12,7 @@ public class IndedxController {
         return "inicio";
     }
 
-    @GetMapping("/Entretenimiento")
+    @GetMapping( value= "/Entretenimiento")
     public String Entretenimiento() {
         return "Entretenimiento";
     }
